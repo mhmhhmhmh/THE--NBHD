@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    height: 23px;
+    font-size: 19px;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5,h6{
+    margin: 0;
+}
+
+
+/* container */
+.container {
+    width: 100%;
+    max-width: 1029px;
+    margin: 0 auto;
+}
+.container2{
+    margin: 165px 370px;
+}
+
+.container3{
+    margin: -150px 370px;
+}
+
+
+/* intro */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/normpic.jpg"); */
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    background-size: cover;
+    height: 100vh;
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.intro_inner{
+    width: 100%;
+    max-width: 900px;
+    margin: -220px
+}
+.intro_title{;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 45x;
+        font-weight: 300;
+        margin-top: 0px;
+        margin-bottom: 86px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 51px;
+}
+
+/* header */
+.header{
+    width: 100%;
+    padding-top: 25px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -100px;
+}
+.logo{
+    font-size: 19px;
+    font-weight: 400;
+    color: #fff;
+    margin: -30px;
+}
+
+
+/* menu */
+.menu{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.menu_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+
+    color: gray;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: color .2s linear;
+}
+.menu_link:hover{
+    color: #fff;
+}
+
+/* button */
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 25px;
+    margin: 10px 0;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    color: #fff;
+    cursor: pointer;
+    transition: color .2s linear;
+
+    border: 1px solid #fff;
+}
+.btn:hover {
+    background: #fff;
+    color: black;
+}
